@@ -1,0 +1,49 @@
+Criando um APP do zero em react-native:
+
+1. Instalar o Node.js e expo-cli 
+
+ npm install -g expo-cli
+
+
+2. Criar um Novo Projeto:
+npx create-expo-app Meu_app   (código padrão)
+
+OU 
+
+npx create-expo-app  Meu_app  --template  expo-template-blank@sdk-50   (código padrão em branco)
+
+3. Navegar para o Diretório do Projeto:
+
+cd MeuProjeto
+
+4. Iniciar o Servidor de Desenvolvimento:
+
+npx expo start
+
+
+5. Instalar Dependências Adicionais:
+
+npm install @react-navigation/native
+
+npm install react-native-gesture-handler 
+react-native-reanimated 
+react-native-screens 
+react-native-safe-area-context 
+
+6. Executar o Aplicativo em um Emulador (Opcional)
+
+npx expo start --android
+
+npx expo start --ios
+
+7. Build para Produção (Opcional)
+
+npx expo build:android
+
+npx expo build:ios
+
+
+
+
+
+
